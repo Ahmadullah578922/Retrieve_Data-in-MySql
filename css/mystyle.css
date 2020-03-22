@@ -1,0 +1,116 @@
+.top_bar{background-color: #F26522; padding: 20px 0;
+}
+.social_icons{margin-right:5px ;}
+.contact_info{color: #fff;font-size: 16px;}
+.my_menu{margin-top: 30px ; margin-bottom: 20px;}
+.navbar-brand{
+	font-size:35px;
+	padding-top: 10px;
+}
+.my_menu .navbar-default{background: none;border: none;}
+.my_menu .navbar-nav .active a, .my_menu .navbar-nav .active a:hover{background-color: #F26522;color: white;}
+.my_menu .navbar-nav li a:hover{background-color: #F26522;color: white;}
+.languages{
+	margin-top: 40px;
+}
+.courses{
+	background:blue;
+	padding: 25px 0;
+}
+.courses h1{
+	color: white;
+}
+.courses .top_margin{
+	margin-top: 36px;
+}
+.footer{
+	background: #333333;
+	padding: 20px 0;
+	color: white;
+}
+.footer ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+
+}
+.footer li a{
+	color: white;
+	font-size:15px;
+
+
+}
+@media(max-width: 800px){
+	.courses [class*="col-"]{
+		margin-bottom: 25px;
+	}
+}
+@media(max-width: 1200px){
+	.my_menu .pull-right{float:none !important;}
+}
+.banner{
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+}
+.carousel-caption{
+	padding-bottom: 200px;
+	font-family: poppins;
+
+}
+.carousel-caption h2{
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h2 span{
+	color: #edbb00;
+}
+.carousel-caption a{
+	background:#edbb00 ;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color:#fff;
+	text-transform: uppercase;
+	border-radius: 25px;
+}
+.carousel-control.right{
+	background-image: none;
+}
+.carousel-control.left{
+	background-image: none;
+}
+.carousel-indicators .active{
+	background-color: #edbb00;
+	border-color:#edbb00 ;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.carousel-caption{
+		padding-bottom: 200px;
+	}
+	.carousel-caption h2{
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.carousel-caption{
+		padding-bottom: 120px;	
+	}
+	.carosel-caption h2{
+		font-size: 20px;
+	}
+	.carosel-caption h3{
+		font-size: 18px;
+	}
+	.carosel-caption a{
+		padding: 10px 25px;
+	}
+
+}
